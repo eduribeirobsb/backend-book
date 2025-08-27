@@ -1,6 +1,6 @@
 //Importando o módulo Express
 const express = require('express');
-const rotaLivro = require('./rotas/livro');
+const rotaLivro = require('./route/livro');
 
 const app = express();
 app.use(express.json());
